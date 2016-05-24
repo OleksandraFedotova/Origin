@@ -10,6 +10,13 @@ namespace Test1
     {
         static void Main(string[] args)
         {
+
+            Console.Write("hELLO {0}",new Program().Hello(Convert.ToString(Console.ReadLine())));
+        }
+
+        public string  Hello(string name)
+        {
+            return "Hello," + name + "!";
         }
     }
 }
